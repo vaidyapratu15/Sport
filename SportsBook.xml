@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+		
+		 <class name="com.playexch.testclass.LoginTestCases">
+       <methods>
+		   <exclude name="logOutToWeb"></exclude>	    
+	   </methods>
+           </class>	
+		
+	  <class name="com.playexch.sportsbook.CricketBackMatchedTC">
+       <methods>
+		   <exclude name="loginToWeb"></exclude>
+		   <exclude name="logOutToWeb"></exclude>	    
+	   </methods>
+           </class>	
+           
+	   <class name="com.playexch.sportsbook.CricketBackUnmatchedTC">
+		<methods>
+		   <exclude name="loginToWeb"></exclude>
+		   <exclude name="logOutToWeb"></exclude>	    
+	   </methods>
+           </class>	   
+		   
+		  	   
+	   <class name="com.playexch.sportsbook.CricketLayMatchedTC">
+		   <methods>
+		   <exclude name="loginToWeb"></exclude>
+		   <exclude name="logOutToWeb"></exclude>	    
+	   </methods>
+           </class>	 
+           
+	   <class name="com.playexch.sportsbook.CricketLayUnmatchedTC">
+		   <methods>
+		   <exclude name="loginToWeb"></exclude>
+		   <exclude name="logOutToWeb"></exclude>	    
+	   </methods>
+           </class>	 
+           
+	   <class name="com.playexch.sportsbook.SoccerBackMatchedTC">
+		   <methods>
+		   <exclude name="loginToWeb"></exclude>
+		   <exclude name="logOutToWeb"></exclude>	    
+	   </methods>
+           </class>	 
+           
+	   <class name="com.playexch.sportsbook.SoccerLayUnmatchedTC">
+		   <methods>
+		   <exclude name="loginToWeb"></exclude>
+		   <exclude name="logOutToWeb"></exclude>	    
+	   </methods>
+           </class>	 
+           
+	   <class name="com.playexch.sportsbook.SoccerLayMatchedTC">
+		   <methods>
+		   <exclude name="loginToWeb"></exclude>
+		   <exclude name="logOutToWeb"></exclude>	    
+	   </methods>
+           </class>	 
+           
+	   <class name="com.playexch.sportsbook.SoccerBackUnmatchedTC">
+		   <methods>
+		   <exclude name="loginToWeb"></exclude>
+		   <exclude name="logOutToWeb"></exclude>	    
+	   </methods>
+           </class>	 
+           
+       <class name="com.playexch.sportsbook.TennisLayUnmatchedTC"> 
+		   <methods>
+		   <exclude name="loginToWeb"></exclude>
+		   <exclude name="logOutToWeb"></exclude>	    
+	   </methods>
+           </class>	 
+           
+       <class name="com.playexch.sportsbook.TennisBackUnmatchedTC">  
+		   <methods>
+		   <exclude name="loginToWeb"></exclude>
+		   <exclude name="logOutToWeb"></exclude>	    
+	   </methods>
+           </class>	 
+           
+       <class name="com.playexch.sportsbook.TennisBackMatchedTC">
+		   <methods>
+		   <exclude name="loginToWeb"></exclude>
+		   <exclude name="logOutToWeb"></exclude>	    
+	   </methods>
+           </class>	 
+           
+       <class name="com.playexch.sportsbook.TennisLayMatchedTC">
+		   <methods>
+		   <exclude name="loginToWeb"></exclude>  
+		      <exclude name="logOutToWeb"></exclude>	  
+	   </methods>
+           </class>	 
+           
+            <class name="com.playexch.sportsbook.CashOutCricketTC">
+		   <methods>
+		   <exclude name="loginToWeb"></exclude>    
+	   </methods>
+           </class>	
+           
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

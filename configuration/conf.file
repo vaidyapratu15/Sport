@@ -1,0 +1,10 @@
+ChromeOptions browserOptions = new ChromeOptions();
+browserOptions.setPlatformName("MacOS ventura");
+browserOptions.setBrowserVersion("114.0");
+HashMap<String, Object> ltOptions = new HashMap<String, Object>();
+ltOptions.put("username", "pratiksha.vaidya");
+ltOptions.put("accessKey", "pdy1qZI4dxNgN2lCTYrAlFFS2FDJ1iQm005031X734uhCZjr0h");
+ltOptions.put("project", "Untitled");
+ltOptions.put("w3c", true);
+ltOptions.put("plugin", "java-java");
+browserOptions.setCapability("LT:Options", ltOptions);
